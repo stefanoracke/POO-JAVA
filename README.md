@@ -18,5 +18,4 @@ This Java application demonstrates the principles of Object-Oriented Programming
 - greeting(Person other): Potentially generates a greeting message from one Person to another (implementation details not shown).
 
 # Output
-
 The application prints information about the two Person objects to the console, including their full names, ages, and major details (if the infoMajor() method provides that information). It might also display a greeting message from one person to the other, depending on the greeting() method's implementation.
