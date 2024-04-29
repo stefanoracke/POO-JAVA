@@ -1,22 +1,23 @@
 public class Animal {
 
-    //Declaraciones
+    // Declaraciones
     private String name;
     private int age;
+    static int animalsCount = 0;
 
-
-    //Constructoers
+    // Constructoers
     public Animal(String name, int age) {
         this.name = name;
         this.age = age;
+        animalsCount++;
     }
 
-    //Metodos
+    // Metodos
     public String makeSound() {
         return "Hacer sonido genérico";
     }
 
-    //Getters and setters
+    // Getters and setters
     public String getName() {
         return name;
     }
@@ -33,5 +34,8 @@ public class Animal {
         this.age = age;
     }
 
-    
+    public static int getCountAnimal() {
+        return animalsCount;
+    }
+
 }

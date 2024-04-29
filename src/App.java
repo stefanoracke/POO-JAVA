@@ -13,6 +13,7 @@ public class App {
         System.out.println(animal.makeSound());
         System.out.println(cat.makeSound());
         System.out.println(dog.makeSound());
+        System.out.println("La cantidad de animales creado es de: " + Animal.getCountAnimal());
 
         System.out.println(p1.giveFullName() + " tiene " + p1.getAge() + " años. " + p1.getMajor().infoMajor());
         System.out.println(p2.giveFullName() + " tiene " + p2.getAge() + " años. " + p2.getMajor().infoMajor());
