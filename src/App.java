@@ -6,6 +6,14 @@ public class App {
         Person p2 = new Person("Rodrigo", "Polaco", 25, m2);
         Person p3 = new Person("Pablo", "Rodriguez", 40);
 
+        Animal animal = new Animal("Bestia", 200);
+        Cat cat = new Cat("Mishi", 7);
+        Dog dog = new Dog("Bimba", 3);
+
+        System.out.println(animal.makeSound());
+        System.out.println(cat.makeSound());
+        System.out.println(dog.makeSound());
+
         System.out.println(p1.giveFullName() + " tiene " + p1.getAge() + " años. " + p1.getMajor().infoMajor());
         System.out.println(p2.giveFullName() + " tiene " + p2.getAge() + " años. " + p2.getMajor().infoMajor());
         System.out.println(p3.giveFullName() + " tiene " + p3.getAge() + " años. ");
