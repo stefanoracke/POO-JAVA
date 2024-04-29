@@ -6,9 +6,9 @@ public class App {
         Person p2 = new Person("Rodrigo", "Polaco", 25, m2);
         Person p3 = new Person("Pablo", "Rodriguez", 40);
 
-        System.out.println(p1.giveFullName() + " tiene " + p1.age + " años. " + p1.major.infoMajor());
-        System.out.println(p2.giveFullName() + " tiene " + p2.age + " años. " + p2.major.infoMajor());
-        System.out.println(p3.giveFullName() + " tiene " + p3.age + " años. ");
+        System.out.println(p1.giveFullName() + " tiene " + p1.getAge() + " años. " + p1.getMajor().infoMajor());
+        System.out.println(p2.giveFullName() + " tiene " + p2.getAge() + " años. " + p2.getMajor().infoMajor());
+        System.out.println(p3.giveFullName() + " tiene " + p3.getAge() + " años. ");
         System.out.println(p1.greeting(p2));
         System.out.println(p1.greeting(p3));
     }
